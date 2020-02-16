@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./styles.module.css";
 import { Link } from 'gatsby'
 import { Helmet } from "react-helmet"
-import store from "./store.js";
 
 export default({productName, productPrice, source}) => (
     <div className = { styles.Card }>     
