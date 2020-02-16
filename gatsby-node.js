@@ -1,4 +1,4 @@
-const path = require('path')
+/*const path = require('path')
 
  module.exports.createPages = async({ graphql, actions }) => {
     const { createPage } = actions
@@ -24,4 +24,39 @@ const path = require('path')
             }
         })
     })
-  }
+  }*/
+  const path = require("path");
+  exports.createPages = ({ actions, graphql }) => {
+   const { createPage } = actions;
+    const postTemplate = path.resolve(`src/templates/Blog/index.js`);
+
+    return graphql(`
+     {
+       allMarkdownRemark {
+         edges {
+           node {
+             frontmatter {
+               slug
+             }
+           }
+         }
+       }
+     }
+   `).then(result => {
+     if (result.errors) {
+       return Promise.reject(result.errors);
+     }
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+       const { slug } = node.frontmatter;
+       createPage({
+         path: "/Blog/" + slug,
+         component: postTemplate,
+         context: {
+           slug
+         }
+       });
+     });
+     
+ });
+
+};

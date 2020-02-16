@@ -1,0 +1,46 @@
+.Post {
+    overflow: auto;
+    display: inline-grid;
+    grid-template-columns: 20% 80%;	
+    background-color:#f1efef;
+    margin-top: 20px;
+    height: 180px;
+  }
+
+  .Post:hover {
+    background-color:#d1aded  ;
+}
+  .Excerpt{
+    color:black;
+  }
+   .date {
+    color: #777777;
+    font-style: italic;
+    font-size: .9rem;
+    padding-bottom: 10px;
+    margin-top: 8px;
+  }
+  .newsContainer {
+    overflow: hidden;
+    text-overflow: hidden;
+    clear: right;
+  }
+.newsThumb {
+  width: 256px;
+  height: 150px;
+  padding-right: 1.5rem; 
+  padding-left:  1rem;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+@media screen and (max-width: 1005px) {
+    
+  .newsThumb {
+    display: none;
+  }
+  .Post {
+    display: inline;
+  }
+  
+}
