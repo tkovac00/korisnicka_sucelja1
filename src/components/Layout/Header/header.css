@@ -8,8 +8,7 @@ header {
     z-index: 10;
     text-align: center;
  }
-
-.navItem{ 
+.menu{  
     height: 100%;
     content: 0px;
     padding: 0px;
@@ -17,41 +16,104 @@ header {
     padding-left: 5px;
     float: right;
 }
-
-.navItem li {
-   height: 50%;
+.menu li {
+   
    content: 0px;
-   padding-right: 15px;
-   padding-left: 15px;
+   padding-right: 10px;
+   padding-left: 10px;
    margin: 0px;
    font-size: 1.3rem;          
 }
-
-.navItem .current {
+.menu .current {
     color: #cfcccc;
 }
-.navItem a {
+.menu a {
     color: #FFFFFF;
-    }
+}
         
- .navItem li:last-child a {
+ .menu li:last-child a {
         background-color: #FFFFFF;
         color: #454545;  
         padding-top: 8px;
         padding-bottom: 3px;
         padding-right:20px;
         padding-left: 20px;
-        border-radius: 10px; 
-        }
-
-.navItem a:hover {
+        border-radius: 10px;  
+}
+.menu a:hover {
     color: #cfcccc; 
 }
-
-.navItem li:hover {
+.menu li:hover {
     text-decoration: underline;
-    color: #727272  ;
+    color: #cfcccc  ;
     transform: scale(1.1);
+}
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+#toggle {
+    display: none;
+}
+
+
+.menu li{
+    list-style: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+    label {
+        display: block;
+        cursor: pointer;
+        color: #cfcccc;
+        line-height: 50px;
+    }
+    .menu {
+        margin-top: 0px;
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu li {
+        height: 50px;
+        line-height: 50px;
+        cursor: pointer;
+        background-color: #EAEAEB;
+        display: block;
+        border-bottom: 1px solid #454545;
+        margin: 0;
+        padding-bottom: 50px;
+    }
+    .menu li:hover {
+        text-decoration: underline;
+        color: black ;
+        transform: none;
+    }
+    .menu li:last-child a {        
+        padding: 0 0 0 0;
+        margin: 0;        
+        background-color: #EAEAEB;
+    }
+    .menu .current {
+        font-weight: bold;
+        color: #454545;
+    }   
+    .menu .current:hover {
+        text-decoration: underline;
+        color: black ;
+    }  
+    #toggle:checked + .menu {
+        display: flex;
+        flex-direction: column;        
+    }
+    #toggle:checked + *{
+        margin-bottom: 500px;
+    }    
 }
 
 

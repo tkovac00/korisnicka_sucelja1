@@ -8,19 +8,11 @@
         }
     },
     {
-        "id": "Purple bag for girls",
-        "price": "50,00$",
-        "link": "purple-bag-for-girls",
+        "id": "Heeled boots",
+        "price": "37,00$",
+        "link" : "heeled-boots",
         "image": {
-            "src": "https://cdn.shoplightspeed.com/shops/615866/files/10075729/monnalisa-monnalisa-girls-purse.jpg"
-        }
-    },
-    {
-        "id": "Shining bag",
-        "price": "90,00$",
-        "link": "shining-bag",
-        "image": {
-            "src": "https://mywishcard.com/s/i2/af/8/470x0_rKDcS9YbSRhKCxZVr7n1PdfZTiCcdxmv___jpg____4_4792f7b1.jpg"
+            "src": "https://anninc.scene7.com/is/image/LO/511804_2222?$pdp2x$"
         }
     },
     {
@@ -29,6 +21,14 @@
         "link": "roll-neck-jumper",
         "image": {
             "src": "https://www.stormfashion.co.uk/wp-content/uploads/2019/11/Set-Oversized-Roll-Neck-Sweatshirt-In-Rose-front-250x250.jpg"
+        }
+    },
+    {
+        "id": "Slippers",
+        "price": "15,00$",
+        "link" : "slippers",
+        "image": {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTR82KeTswzBBcOu9wWo69uBYAtUAAF0cHwhxFxNva57YSGxuBN"
         }
     }
 ]

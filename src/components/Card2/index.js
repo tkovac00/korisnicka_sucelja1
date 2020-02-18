@@ -6,8 +6,7 @@ export default({productName, productPrice, source}) => (
     <div className = { styles.Card }>
             <img className = { styles.Photo } src={source} alt='' />
             <ul class="menu">
-                <li style={{ display: `inline-block`,textDecoration: 'none', float: 'left'}}>{productName}</li>
-                <li style={{ display: `inline-block`,textDecoration: 'none', float: 'right'}}><b>{productPrice}</b></li>
+            <li  style={{ display: 'inline-block', textDecoration: 'none', alignSelf: 'center'}}>{productName} &nbsp; &nbsp; <b>{productPrice}</b></li>
             </ul>
     </div>
 );

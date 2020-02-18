@@ -2,6 +2,7 @@ import React from "react"
 import Layout from "../components/Layout/layout"
 import Head from "../components/head"
 import { MainContainer4 } from "../components"
+import styles from "./styles.module.css";
 
 
 const BagPage = () => (
@@ -13,7 +14,7 @@ const BagPage = () => (
       <MainContainer4 />
 
   </div>
-  <ul style={{height: '20%',textAlign: 'center',width: '60%',marginInlineStart: '5%',display: 'inline-block',backgroundColor: '#d1aded'}}>
+  <ul className={styles.total} style={{height: '20%',textAlign: 'center',marginInlineStart: '5%',display: 'inline-block',backgroundColor: '#d1aded'}}>
   <h3 style={{textAlign: 'center',cursor:'pointer'}}><b>TOTAL: 25,00 $</b></h3>
   </ul>
           </Layout>  

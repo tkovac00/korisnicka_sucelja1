@@ -2,7 +2,6 @@
 export { default as MainContainer } from './MainContainer';
 export { default as MainContainer3} from './MainContainer3';
 export { default as MainContainer4} from './MainContainer4';
-export { default as MainContainer_Favourites} from './MainContainer_Favourites';
 export { default as Showcase} from './Showcase';
 export { default as NewsIndex } from "./NewsIndex";
 export { default as PrivateRoute } from "./Private/PrivateRouter.js";

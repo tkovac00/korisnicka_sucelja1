@@ -53,7 +53,7 @@ class FilteredClothes extends Component {
         return (
             <>
             
-            <h1 style={{ textAlign: 'center', marginTop: '-20px', opacity: '0.8' }}>Clothes</h1>
+            <h1 style={{ textAlign: 'center', marginTop: '-20px', opacity: '0.8' }}>Bags</h1>
             <hr style={{ border: '0.5px solid black', opacity: '0.8', marginTop: '15px' }} />
             <div className={styles.InputContainer}>
                 <label className={styles.Label}>

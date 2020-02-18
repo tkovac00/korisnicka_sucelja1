@@ -43,7 +43,7 @@ class FilteredShoes extends Component {
 
 
             return (
-                <Link to={`Shoes/${link}`}>
+                <Link to='Products/OneProduct'>
                     <Card2 productName={id} productPrice={price} source={image.src}></Card2>
                     </Link>
                 

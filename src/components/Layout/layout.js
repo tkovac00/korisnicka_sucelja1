@@ -9,7 +9,7 @@ export default (props) => (
            <Header/>
          {props.children}
       </div>
-           <Footer/>
+           <Footer className = "Footer"/>
          
   </div>
 )

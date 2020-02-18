@@ -4,6 +4,7 @@ import "../components/body.css"
 import Head from "../components/head"
 import { Showcase } from '../components'
 import { MainContainer } from '../components'
+import styles from "./index.css"
 
 
 

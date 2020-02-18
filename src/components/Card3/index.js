@@ -51,7 +51,7 @@ export default({productName, productPrice, source}) => (
                                     <li style={{display: `inline-block`, float: 'right',textDecoration: 'none'}}><b>{productPrice}</b></li>
                                     </ul>
                                 </div>
-                                <label for="size" style={{display: 'inline-block',paddingTop: '30px',width:'8%'}}>Size:</label>
+                                
 
                                     <select id="size">
                                     <option value="S">S</option>

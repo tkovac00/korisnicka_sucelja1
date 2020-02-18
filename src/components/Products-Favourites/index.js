@@ -43,7 +43,7 @@ class FilteredFavourites extends Component {
 
 
             return (
-                <Link to={`Favourites/${link}`}>
+                <Link to='Products/OneProduct'>
                     <Card2 productName={id} productPrice={price} source={image.src}></Card2>
                     </Link>
                 

@@ -26,9 +26,7 @@
 	border: 0.7px solid #6e6d6d;
 	
 }
-/*.Card:hover {
- 	background-color: lightgray;
-}*/
+
 .Card:hover>.Photo {
 		transform: scale(1.1);
 	}

@@ -13,16 +13,18 @@ const Header = () =>(
   <header>
   <Link to="/" style={{color: 'white', display: 'inline-block', float: 'left', marginLeft: '1.5rem',
                              textDecoration: 'none',transform: 'translate(0, 50%)', fontSize: '1.5rem '}}><b><i>t&m</i></b></Link>
-     
-      <ul className="navItem">
-        <ListLink to="/">Home</ListLink>
-        <ListLink to="/#products">Products</ListLink>
-        <ListLink to="/Favourites/">Favourites</ListLink>
-        <ListLink to="/Bag/">Bag</ListLink>
+    
+      
+      <label for="toggle">&#9776;</label>
+      <input type="checkbox" id="toggle"/>
+      <ul className="menu">
+        <ListLink to="/"><li>Home</li></ListLink>
+        <ListLink to="/#products"><li>Products</li></ListLink>
+        <ListLink to="/Favourites/"><li>Favourites</li></ListLink>
+        <ListLink to="/Bag/"><li>Bag</li></ListLink>
         <ListLink to="/Blog/">Blog</ListLink>
         <ListLink to="/LogIn/"><b>LOG IN</b></ListLink>
-     </ul>
- 
+     </ul> 
   </header>
 )
 
