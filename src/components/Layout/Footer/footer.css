@@ -6,6 +6,7 @@ footer {
     border-top: 1px solid  rgb(46, 44, 44);
     background-color: #454545;
     height:7em;
+   
 }    
 footer .date{
     
@@ -28,6 +29,9 @@ footer .date{
     }
     .mail{
         display:none;
+    }
+    footer{
+        width:100%;
     }
 
 } 
