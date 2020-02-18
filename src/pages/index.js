@@ -7,8 +7,6 @@ import { MainContainer } from '../components'
 import styles from "./index.css"
 
 
-
-
 const HomePage = () => {
  
   return(
@@ -18,7 +16,7 @@ const HomePage = () => {
       <Showcase />
     
     <div style={{width:'100%', marginLeft: 'auto', marginRight:'auto',display: 'flex',flexDirection: 'column',
-    paddingTop: '20px'}}><p>Lorem Ipsum is simply dummy text of
+    paddingTop: '20px'}}><p className={styles.paragraf}>Lorem Ipsum is simply dummy text of
         the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when 
         an unknown printer took a galley of type and scrambled it to make a type specimen book. ItLorem Ipsum is simply dummy text
          of the printing and typesetting industry. Lorem Ipsum has been the industry's <a id="products"></a> standard dummy text ever since the 1500s, 

@@ -140,16 +140,16 @@ p{
 	}
 
 	.button2{
-		padding: 2px 5px;
+		padding: 2px 8px;
 		font-size: 8px;
-		margin-top: 35%;
+		margin-top: 30%;
 	}
 	.vel{
 		display: none;
-		margin-inline-start: 23%;
+		margin-inline-start: 30%;
 	}
 
 	.prvi{
-		margin-inline-start: 5%;
+		margin-inline-start: 10%;
 	}
 }

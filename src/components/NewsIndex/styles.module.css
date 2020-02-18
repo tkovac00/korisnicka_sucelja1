@@ -51,5 +51,9 @@
   .Post {
     display: inline;
   }
+  .newsContainer {
+    background-color: #f1efef;
+    text-align: center;
+  }
   
 }
