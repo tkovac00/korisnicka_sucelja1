@@ -1,20 +1,48 @@
-import React from "react"
+import React, {Component} from "react";
 import Layout from "../components/Layout/layout"
 import Head from "../components/head"
-import { MainContainer_Favourites } from '../components'
+import { Favourites } from '../components'
+import { graphql } from "gatsby";
 
-const FavouritesPage = () => (
- <Layout>
-   <Head title="Favourites" />
-   <div>
-   <h1 style={{textAlign: 'center', marginTop: '-10px',opacity: '0.8'}}>Favourites</h1>
-      <hr style={{border: '0.3px solid black',opacity: '0.8', marginTop: '-10px'}} />
-
-      <MainContainer_Favourites />
-   </div>
-    </Layout> 
-  )
+   
+     export default ({ 
+         data: {
+             allFavouritesJson: { edges: favourites }
+         } 
+     }) => {
+         return (
+             <>
+             <Layout>
+             <Favourites favourites = {favourites}/>
+             </Layout>
+             </>
+         );
+     };
+     
+     export const query = graphql`{
+       allFavouritesJson {
+           edges {
+             node {
+               id
+               price
+               link
+               image {
+                 src
+               }
+             }
+           }
+         }
+       }
+       
+       `;
+    
+   
+    
+    
+    
+    
+    
+    
+   
   
-  export default FavouritesPage
- 
   

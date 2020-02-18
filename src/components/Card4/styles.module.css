@@ -59,24 +59,19 @@
 	font-weight: 300;
   }
    
-  button[class*=btn] {
-	width: 30px;
-	height: 30px;
-	background-color: #E1E8EE;
-	border-radius: 6px;
-	border: none;
-	cursor: pointer;
-  }
-  .minus-btn img {
-	margin-bottom: 3px;
-  }
-  .plus-btn img {
-	margin-top: 2px;
-  }
-   
-  button:focus,
-  input:focus {
-	outline:0;
+  .button2 {
+		padding: 4px 10px;
+		background-color: rgb(238, 64, 64);
+		border: none;
+		color: white;
+		text-align: center;
+		text-decoration: none;
+		font-size: 16px;
+		cursor: pointer;
+		margin-top: 23%;
+		margin-inline-start: 45%;
 	}
 	
+	
+
 	

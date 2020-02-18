@@ -1,20 +1,38 @@
-import React from "react"
+import { MainContainer_Bags } from '../../components';
+import React, {Component} from "react";
+import { Accessories } from '../../components';
+import { graphql } from "gatsby";
 import Layout from '../../components/Layout/layout'
 import Head from '../../components/head'
-import { MainContainer_Accessories } from '../../components'
 
-const AccessoriesPage = () => (
- <Layout>
-   <Head title="Accessories" />
-   <div>
-   <h1 style={{textAlign: 'center', marginTop: '-10px',opacity: '0.8'}}>Accessories</h1>
-      <hr style={{border: '0.3px solid black',opacity: '0.8', marginTop: '-10px'}} />
-      <MainContainer_Accessories />
-   </div>
-    </Layout> 
-  )
-  
-  export default AccessoriesPage
 
-  
- 
+      export default ({ 
+          data: {
+              allAccessoriesJson: { edges: accessories }
+          } 
+      }) => {
+          return (
+              <>
+              <Layout>
+              <Accessories accessories = {accessories}/>
+              </Layout>
+              </>
+          );
+      };
+      
+      export const query = graphql`{
+        allAccessoriesJson {
+            edges {
+              node {
+                id
+                price
+                link
+                image {
+                  src
+                }
+              }
+            }
+          }
+        }
+        
+        `;

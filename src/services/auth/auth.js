@@ -12,11 +12,11 @@ const setUser = user =>
 
 export const handleLogin = ({ username, password }) => {
   // hardcoded user John Doe
-  if (username === `toni` && password === `fesb1234`) {
+  if (username === `Tina` && password === `fesb1234`) {
     setUser({
-      username: `toni`,
-      name: `toni`,
-      email: `tonijukica@fesb.hr`
+      username: `Tina`,
+      name: `Tina`,
+      email: `tkovac00@fesb.hr`
     });
 
     return {

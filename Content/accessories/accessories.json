@@ -1,0 +1,98 @@
+[
+    {
+        "id": "Pink scarf",
+        "price": "18,00$",
+        "link": "pink-scarf",
+        "image": {
+            "src": "https://i.pinimg.com/originals/c6/3f/47/c63f4720ede654aa0c618dfaab3c26fd.jpg"
+        }
+    },
+    {
+        "id": "Black sun hat",
+        "price": "25,00$",
+        "link": "black-sun-heat",
+        "image": {
+            "src": "https://cdn.shopify.com/s/files/1/2330/3481/products/20537180_1_1024x1024.jpg?v=1522731305"
+        }
+    },
+    {
+        "id": "Gold earrings",
+        "price": "70,00$",
+        "link": "gold-earrings",
+        "image": {
+            "src": "https://www.youme-jewelry.com/tim/1000x1000/303/CV1545575141VC/315462-womens-earrings-womens-jewelry-yellow-gold-1.jpg"
+        }
+    },
+    {
+        "id": "Silver blue earrings",
+        "price": "45,00$",
+        "link": "silver-blue-earrings",
+        "image": {
+            "src": "https://hexyo.co.uk/wp-content/uploads/2017/11/57.png"
+        }
+    },
+    {
+        "id": "Grey cashmere scarf",
+        "price": "90,00$",
+        "link": "grey-cashmere-scarf",
+        "image": {
+            "src": "https://i.etsystatic.com/16367660/r/il/563a03/1776528420/il_570xN.1776528420_nife.jpg"
+        }
+    },
+    {
+        "id": "Black sunglasses",
+        "price": "40,00$",
+        "link": "black-sunglasses",
+        "image": {
+            "src": "https://i.ebayimg.com/images/g/6p0AAOSwpJRdrzPe/s-l400.jpg"
+        }
+    },
+    {
+        "id": "Silver heart necklace",
+        "price": "55,00$",
+        "link": "silver-heart-necklace",
+        "image": {
+            "src": "https://www.jewellerybox.co.uk/images/products/xlarge/CHZ-720-0659_Sterling_Silver_Floating_Heart_Pendant_on_Chain.jpg"
+        }
+    },
+    {
+        "id": "Brown sunglasses",
+        "price": "35,00$",
+        "link": "brown-sunglasses",
+        "image": {
+            "src": "https://aromacraze.com/images/thumbs/0033497_prada-spr-09q-2au-6s1-brownbrown-by-prada-for-women-49-26-140-mm-sunglasses_550.jpeg"
+        }
+    },
+    {
+        "id": "Warm pink hat",
+        "price": "12,00$",
+        "link": "warm-pink-hat",
+        "image": {
+            "src": "https://ae01.alicdn.com/kf/HTB152U_weuSBuNjSsziq6zq8pXaX/Fashion-Winter-Women-s-Hat-Scarf-Set-of-Hat-And-Scarf-For-Women-Girl-Warm-Beanies.jpg_640x640.jpg"
+        }
+    },
+    {
+        "id": "White cashmere scarf",
+        "price": "110,00$",
+        "link": "white-cashmere-scarf",
+        "image": {
+            "src": "https://www.pashminawear.com/484-large_default/off-white-cashmere-scarf-in-twill-weave.jpg"
+        }
+    },
+    {
+        "id": "Modern pink sunglasses",
+        "price": "26,00$",
+        "link": "pink-sunglasses",
+        "image": {
+            "src": "https://www.claires.com/dw/image/v2/BBTK_PRD/on/demandware.static/-/Sites-master-catalog/default/dw64385f22/images/hi-res/83109_1.jpg?sw=734&sh=734&sm=fit"
+        }
+    },
+    {
+        "id": "Gold necklace",
+        "price": "98,00$",
+        "link": "gold-necklace",
+        "image": {
+            "src": "https://staticimg.titan.co.in/Tanishq/Catalog/5111392OBAAA00_2.jpg"
+        }
+    }
+]

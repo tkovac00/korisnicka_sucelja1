@@ -1,0 +1,34 @@
+[
+    {
+        "id": "Oversized jumper",
+        "price": "25,00$",
+        "link": "oversized-jumper",
+        "image": {
+            "src": "https://www.epopeia.org/image/cache/data/category_4/oversize_turtleneck_knitted_womens_sweater_pullovers_long_batwing_sleeve_winter_solid_women_sweaters_2019_loose_basic_jumper_womens_clothing-400x400.jpg"
+        }
+    },
+    {
+        "id": "Purple bag for girls",
+        "price": "50,00$",
+        "link": "purple-bag-for-girls",
+        "image": {
+            "src": "https://cdn.shoplightspeed.com/shops/615866/files/10075729/monnalisa-monnalisa-girls-purse.jpg"
+        }
+    },
+    {
+        "id": "Shining bag",
+        "price": "90,00$",
+        "link": "shining-bag",
+        "image": {
+            "src": "https://mywishcard.com/s/i2/af/8/470x0_rKDcS9YbSRhKCxZVr7n1PdfZTiCcdxmv___jpg____4_4792f7b1.jpg"
+        }
+    },
+    {
+        "id": "Roll neck jumper",
+        "price": "22,00$",
+        "link": "roll-neck-jumper",
+        "image": {
+            "src": "https://www.stormfashion.co.uk/wp-content/uploads/2019/11/Set-Oversized-Roll-Neck-Sweatshirt-In-Rose-front-250x250.jpg"
+        }
+    }
+]

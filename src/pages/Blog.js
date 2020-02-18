@@ -13,7 +13,7 @@ import Layout from "../components/Layout/layout"
     <>
     <Layout>
       <h1 style={{textAlign: 'center', marginTop: '-10px',opacity: '0.8'}}>Blog</h1>
-      <hr style={{border: '0.3px solid black',opacity: '0.8', marginTop: '-10px'}} />
+      <hr style={{border: '0.3px solid black',opacity: '0.8', marginTop: '0px'}} />
       <NewsIndex posts={posts} />
       </Layout>
     </>

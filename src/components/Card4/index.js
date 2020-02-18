@@ -17,7 +17,7 @@ export default({productName, productPrice, source}) => (
                         <li style={{ display: 'inline-block', textDecoration: 'none', float: 'right'}}><b>{productPrice}</b></li>               
                     </ul>
                     </div>
-                    <label for="size" style={{ display: 'inline-block', paddingTop: '20px', width: '8%',marginInlineStart:'8%'}}>Size: </label> 
+                    <label for="size" style={{ display: 'inline-block',paddingLeft:'3px', paddingTop: '20px', width: '8%',marginInlineStart:'8%'}}>Size: </label> 
                             <select id="size">
                                 <option value="S">S</option>
                                 <option value="M">M</option>
@@ -25,11 +25,15 @@ export default({productName, productPrice, source}) => (
                                 <option value="XL">XL</option>
                             </select>
                     <div class="quantity" style={{ display: 'inline-block', paddingTop: '20px',marginInlineStart: '5%'}}>
-                        
-                            <input type="number" id="quantity" name="quantity"  defaultValue="1" min="1" style={{width: '30%'}}></input>
-
+                    <label for="quantity" style={{ display: 'inline-block',marginInlineStart:'8%',paddingRight:'5px'}}>Quantity: </label> 
+                            <input type="number" id="quantity" name="quantity"  defaultValue="1" min="1" style={{width: '20%'}}></input>
+                            
+                </div>
+                <div>
+                <button className={styles.button2}>Remove</button>
                 </div>
             </div>
+            
         </div>                
     </div>
 );

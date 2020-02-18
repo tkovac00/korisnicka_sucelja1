@@ -25,12 +25,13 @@
         })
     })
   }*/
-  const path = require("path");
-  exports.createPages = ({ actions, graphql }) => {
-   const { createPage } = actions;
-    const postTemplate = path.resolve(`src/templates/Blog/index.js`);
+const path = require("path");
+exports.createPages = ({ actions, graphql }) => {
+  const { createPage } = actions;
+  const postTemplate = path.resolve(`src/templates/Blog/index.js`);
+  const bagTemplate = path.resolve('src/templates/Bag/index.js');
 
-    return graphql(`
+  const blogs = graphql(`
      {
        allMarkdownRemark {
          edges {
@@ -43,20 +44,50 @@
        }
      }
    `).then(result => {
+      if (result.errors) {
+        return Promise.reject(result.errors);
+      }
+      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+        const { slug } = node.frontmatter;
+        createPage({
+          path: "/Blog/" + slug,
+          component: postTemplate,
+          context: {
+            slug
+          }
+        });
+      });
+
+    });
+
+    const bags = graphql(`
+    {
+      allBagsJson {
+        edges {
+          node {
+            link
+          }
+        }
+      }
+    }
+  `).then(result => {
      if (result.errors) {
        return Promise.reject(result.errors);
      }
-      result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-       const { slug } = node.frontmatter;
+     result.data.allBagsJson.edges.forEach(({ node }) => {
+       const { link } = node;
        createPage({
-         path: "/Blog/" + slug,
-         component: postTemplate,
+         path: "/Bag/" + link,
+         component: bagTemplate,
          context: {
-           slug
+           link
          }
        });
      });
-     
- });
+
+   });
+
+
+    return Promise.all([blogs, bags]);
 
 };

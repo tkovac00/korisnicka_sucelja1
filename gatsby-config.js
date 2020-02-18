@@ -6,13 +6,13 @@ module.exports = {
   },
   plugins: [
     {
-        resolve: `gatsby-source-contentful`,
+      resolve: `gatsby-source-contentful`,
       options: {
         spaceId: 'ldqlauco54q1',
         // Learn about environment variables: https://gatsby.dev/env-vars
         accessToken: 'f-BbZ2xl53Xx1IKiLcyL60K3pPvaicFjszlxjfxBkbo',
       },
-  },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -20,22 +20,58 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
       },
-      {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-          name: `src`,
-          path: `${__dirname}/src/`,
-        },
-        },
-        {
-          resolve: `gatsby-source-filesystem`,
-          options: {
-            path: `${__dirname}/Content/posts`,
-            name: "posts"
-          }
-        },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/Content/posts`,
+        name: "posts"
+      }
+    },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./Content/bags/`,
+        name: 'bags'
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./Content/clothes/`,
+        name: 'clothes'
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./Content/accessories/`,
+        name: 'accessories'
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./Content/shoes/`,
+        name: 'shoes'
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./Content/favourites/`,
+        name: 'favourites'
+      },
+    },
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
@@ -68,8 +104,8 @@ module.exports = {
       },
     },
     {
-    resolve:`gatsby-transformer-remark`,
-    options: {
+      resolve: `gatsby-transformer-remark`,
+      options: {
         plugins: [
           'gatsby-remark-relative-images',
           {
@@ -80,15 +116,16 @@ module.exports = {
             }
           }
         ]
-    }
+      }
     },
-     
-     `gatsby-plugin-sass`,
-     {
+
+    `gatsby-plugin-sass`,
+    {
       resolve: `gatsby-plugin-create-client-paths`,
       options: { prefixes: [`/private/*`] },
     },
-    
+
+
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

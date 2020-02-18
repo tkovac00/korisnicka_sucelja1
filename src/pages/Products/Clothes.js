@@ -1,20 +1,38 @@
 import React, {Component} from "react";
-import Layout from '../../components/Layout/layout';
-import Head from '../../components/head';
+import Layout from '../../components/Layout/layout'
 import { MainContainer2 } from '../../components';
+import { Clothes } from '../../components';
+import { graphql } from "gatsby";
 
-const ClothesPage = () => (
- <Layout>
-   <Head title="Clothes"/>
-    <div>
-      <h1 style = {{textAlign: 'center', marginTop: '-10px', opacity: '0.8'}}>Clothes</h1>
-      <hr style ={{border: '0.3px solid black', marginTop: '-10px', opacity: '0.8'}}></hr>
-      <MainContainer2 />
-    </div>
-  </Layout> 
-)
+export default ({ 
+    data: {
+        allClothesJson: { edges: clothes }
+    } 
+}) => {
+    return (
+        <>
+        <Layout>
+        <Clothes clothes = {clothes}/>
+        </Layout>
+        </>
+    );
+};
+
+export const query = graphql`{
+  allClothesJson {
+      edges {
+        node {
+          id
+          price
+          image {
+            src
+          }
+        }
+      }
+    }
+  }
   
-export default ClothesPage
+  `;
 
 
 

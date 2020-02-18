@@ -9,7 +9,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
     const { id, excerpt } = post.node;
     const { title, slug,date,permalink} = post.node.frontmatter;
     return (
-      <Link to={`Blog/${slug}`}>
+      <Link className={styles.link} to={`Blog/${slug}`}>
       <section  key={id} className={styles.Post}>
         <LazyLoadImage className={styles.image} src = {permalink} alt = '' effect = 'blur' className = {styles.newsThumb}></LazyLoadImage>
         <div className={styles.newsContainer} >

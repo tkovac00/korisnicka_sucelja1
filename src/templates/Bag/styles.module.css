@@ -1,0 +1,22 @@
+.Post > * {
+    padding: 1.5rem 0;
+    margin: 0 5%;
+  }
+   .Post > p {
+    padding: 0;
+    width: 70%;
+    margin-inline-start: 15%;
+  }
+
+  .Post > :last-child {
+    margin-bottom: 5rem;
+  }
+
+  .Post>h2{
+    margin-inline-start: 15%;
+  }
+
+ .Post>figure{
+
+   
+ }

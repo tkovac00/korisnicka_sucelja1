@@ -1,9 +1,22 @@
 footer {
+    padding-top: 5px;
+    padding-bottom: 5px;
     position: relative;
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 2rem;
+    height: 130px;
     background-color: #454545;
     clear: both;
-     }
+}    
+
+footer .date{
+    color: white;
+    opacity: 90%;
+    margin-inline-start: 87%;
+}
+footer>p{
+    color: white;
+    opacity: 90%;
+    margin-inline-start: 3%;
+}

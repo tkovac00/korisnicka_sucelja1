@@ -1,6 +1,6 @@
 import React from "react";
 import { navigate } from "gatsby";
-import { isLoggedIn } from "services/auth/auth.js";
+import { isLoggedIn } from '../../services/auth/auth';
 
 const PrivateRoute = ({ render: Component, redirect, ...rest }) => {
   if (!isLoggedIn()) {

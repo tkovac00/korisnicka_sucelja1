@@ -1,0 +1,65 @@
+[
+    {
+        "id": "Oversized jumper",
+        "price": "25,00$",
+        "image": {
+            "src": "https://www.epopeia.org/image/cache/data/category_4/oversize_turtleneck_knitted_womens_sweater_pullovers_long_batwing_sleeve_winter_solid_women_sweaters_2019_loose_basic_jumper_womens_clothing-400x400.jpg"
+        }
+    },
+    {
+        "id": "Coat with belt",
+        "price": "70,00$",
+        "image": {
+            "src": "https://image.uniqlo.com/UQ/ST3/WesternCommon/imagesgoods/421055/item/goods_32_421055.jpg?width=250"
+        }
+    },
+    {
+        "id": "Yellow jumper",
+        "price": "19,00$",
+        "image": {
+            "src": "https://cdn.laredoute.com/products/680by680/3/1/8/3181ba737a1c486d2b18a0fb5f6eb2e0.jpg"
+        }
+    },
+    {
+        "id": "Roll neck jumper",
+        "price": "22,00$",
+        "image": {
+            "src": "https://www.stormfashion.co.uk/wp-content/uploads/2019/11/Set-Oversized-Roll-Neck-Sweatshirt-In-Rose-front-250x250.jpg"
+        }
+    },
+    {
+        "id": "Bomber jacket",
+        "price": "33,00$",
+        "image": {
+            "src": "https://cdn.shopify.com/s/files/1/0008/8116/4339/products/perfect-bomber-black-1_250x.jpg?v=1571352071"
+        }
+    },
+    {
+        "id": "Floral dress",
+        "price": "17,00$",
+        "image": {
+            "src": "https://ae01.alicdn.com/kf/UTB8ZO2FvODEXKJk43Oqq6Az3XXaZ.jpg"
+        }
+    },
+    {
+        "id": "Leggings",
+        "price": "20,00$",
+        "image": {
+            "src": "https://contents.mediadecathlon.com/p1705298/k$db286aa46dafc9745152988c15f2de0c/women-s-high-waist-fitness-leggings-black.jpg?&f=250x250"
+        }
+    },
+    {
+        "id": "Coctail dress",
+        "price": "35,00$",
+        "image": {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYyq_FGUhg7-oCkxQDd44c_08D_c0uiAPtf7JWxvB1Xi6DQBrG"
+        }
+    },
+    {
+        "id": "Puff sleeve jumper",
+        "price": "21,00$",
+        "image": {
+            "src": "https://www.urbankissed.com/images/thumbnails/250/250/detailed/14/c48825d8_e081.jpg"
+        }
+    }
+]

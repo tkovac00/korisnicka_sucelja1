@@ -32,7 +32,7 @@ export default () => (
       <Head title="Log in" />
       <div>
       <h1 style = {{textAlign: 'center', marginTop: '-10px', opacity: '0.8'}}>Log in</h1>
-      <hr style ={{border: '0.3px solid black', marginTop: '-10px', opacity: '0.8'}}></hr>
+      <hr style ={{border: '0.3px solid black', marginTop: '0px', opacity: '0.8'}}></hr>
     {isLoggedIn() ? 
       <Logout />
      : (
