@@ -1,7 +1,7 @@
 ---
-date: "2019-11-13"
+date: "2019-07-13"
 title: "The Psychology of Designer Handbags"
-slug: bags4
+slug: bags2
 permalink: "https://www.shemazing.net/wp-content/uploads/2017/04/birkin-656x389.png"
 ---
  <!-- markdownlint-disable MD033 -->

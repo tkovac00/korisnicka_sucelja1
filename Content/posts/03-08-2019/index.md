@@ -1,7 +1,7 @@
 ---
-date: "2019-01-03"
+date: "2019-08-03"
 title: "Oscars best dressed"
-slug: oscars2
+slug: oscars4
 permalink: "https://www.hellomagazine.com/imagenes/fashion/news/2020021384715/natalie-portman-responds-to-rose-mcgowans-scathing-oscars-comments/0-407-566/natalie-portman-oscars-cape-t.jpg"
 ---
  <!-- markdownlint-disable MD033 -->

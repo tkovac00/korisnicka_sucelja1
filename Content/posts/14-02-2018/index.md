@@ -1,7 +1,7 @@
 ---
-date: "2020-02-14"
+date: "2018-02-14"
 title: "Date Night Outfit Ideas for Valentine's Day and Beyond"
-slug: valentines-day5
+slug: valentines-day4
 permalink: "https://www.gorgeousgirl.com/wp-content/uploads/2017/02/valentines-day-beauty-tips.jpg"
 ---
  <!-- markdownlint-disable MD033 -->
