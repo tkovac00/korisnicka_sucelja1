@@ -61,7 +61,7 @@ export default({productName, productPrice, source}) => (
 
                                  <div>
                                             <ul style={{display:'inline-block', textDecoration: 'none',width: '35%'}}>
-                                                <li style={{display:'inline-block'}}><AddToBag />&nbsp; &nbsp;</li>
+                                                <li style={{display:'inline-block'}}><AddToBag /><p id="demo"></p>&nbsp; &nbsp;</li>
                                                 <li style={{display:'inline-block',float: 'right', marginTop: '15px'}}><Heart /></li>
                                             </ul>               
                                  </div>         
