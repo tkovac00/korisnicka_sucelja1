@@ -11,7 +11,7 @@ const HomePage = () => {
  
   return(
       
-    <Layout>
+    <>
       <Head title="Home"/>
       <Showcase />
     
@@ -23,8 +23,8 @@ const HomePage = () => {
          when an unknown printer took a galley of type and scrambled it to make a type specimen book. It</p> </div>    
          
          <MainContainer />
-   
-    </Layout>
+   </>
+    
   )
 }
 

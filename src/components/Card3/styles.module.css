@@ -77,16 +77,62 @@
 	color: black;
 	border-radius: 10px;
 	border: 1px solid black;
+	
   }
 
 .Heart{
 	text-decoration: none;
 }
 
-
-
-
- 
-
-  
-
+	
+@media screen and (max-width: 1150px) {
+    
+	
+	.Card {
+		width: 100%;
+		height: 270px;;
+		background-color: none;	
+		margin-top: 10px;		
+		color:black;
+		position: relative;
+	}
+	.upperRow {
+		display: inline-grid;
+    	grid-template-columns: 60% 40%;	
+	}	
+	.Photo {
+		height: 80%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		transition: transform .2s;
+		border: 1px solid #6e6d6d;
+		padding:0;
+	}
+	.right {
+		margin-left: 30%;
+	}
+}
+@media screen and (max-width: 450) {
+    
+	.Photo {
+		display: flex;
+	  flex-direction: column;
+		height: 50%;
+		flex-grow: 0;
+		flex-shrink: 0;
+		transition: transform .2s;
+		border: 1px solid #6e6d6d;
+		padding:0;
+	}
+	.right{
+		display: flex;
+	  flex-direction: column;
+	}
+  .Card{
+	  display: flex;
+	  flex-direction: column;
+	  font-size: 10px;
+	  height:70%;
+	  width: 100%;
+  }
+}

@@ -46,9 +46,8 @@ export default({productName, productPrice, source}) => (
                             <div className= {styles.right}>
                             
                                 <div>
-                                    <ul class="prva" style={{display: `inline-block`, textDecoration: 'none',width: '50%'}}>
-                                    <li style={{display: `inline-block`, float: 'left',textDecoration: 'none'}}>{productName}</li>
-                                    <li style={{display: `inline-block`, float: 'right',textDecoration: 'none'}}><b>{productPrice}</b></li>
+                                    <ul class="prva" style={{display: 'inline-block', textDecoration: 'none',width: '60%'}}>
+                                    <li style={{display: 'inline-block', float: 'left',textDecoration: 'none'}}>{productName}<br></br><b>{productPrice}</b></li>
                                     </ul>
                                 </div>
                                 
@@ -61,9 +60,9 @@ export default({productName, productPrice, source}) => (
                                     </select>
 
                                  <div>
-                                            <ul style={{display:'inline-block',textDecoration: 'none',width: '35%'}}>
-                                                <li style={{display:'inline-block',float:'left'}}><AddToBag /><b><p id="demo"></p></b></li>
-                                                <li style={{display:'inline-block',float:'right',marginTop: '15px'}}><Heart /></li>
+                                            <ul style={{display:'inline-block', textDecoration: 'none',width: '35%'}}>
+                                                <li style={{display:'inline-block'}}><AddToBag />&nbsp; &nbsp;</li>
+                                                <li style={{display:'inline-block',float: 'right', marginTop: '15px'}}><Heart /></li>
                                             </ul>               
                                  </div>         
                                 

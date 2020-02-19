@@ -71,6 +71,11 @@ module.exports = {
         path: `./Content/favourites/`,
         name: 'favourites'
       },
+    },{
+      resolve: `gatsby-plugin-layout`,
+      options: {
+        component: require.resolve(`./src/components/Layout/layout.js`)
+      }
     },
     `gatsby-plugin-sharp`,
     {
