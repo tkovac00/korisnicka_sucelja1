@@ -38,7 +38,7 @@ class RegisterForm extends Component {
 
     return (
       <form className={styles.RegisterForm}>
-        <label style={style}>{this.state.message}</label>
+        <label className={styles.message}>{this.state.message}</label>
 
         <input
           autoFocus

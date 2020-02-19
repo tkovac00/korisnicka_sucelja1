@@ -61,7 +61,11 @@
       body {
         padding-top:60px;
       }
-      
+      .container{ 
+        min-height: 79vh;
+        overflow: hidden;
+       
+       }
     }
 
    

@@ -36,3 +36,11 @@
     font-size: inherit;
     height: 45px;
   }
+
+  @media screen and (max-width: 1150px){
+    .message{
+      font-size: 15px; 
+      width: 100%;
+      color:black;
+    }
+  }

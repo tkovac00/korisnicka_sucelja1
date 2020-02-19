@@ -35,7 +35,7 @@ class LoginForm extends Component {
 
     return (
       <form className={styles.LoginForm} onSubmit={this.handleSubmit}>
-        <label style={style}>{this.state.message}</label>
+        <label className={styles.message}>{this.state.message}</label>
 
         <input
           autoFocus
